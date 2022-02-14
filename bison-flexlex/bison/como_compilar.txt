@@ -1,0 +1,4 @@
+bison -d fonte.y
+lex fonte.l
+gcc lex.yy.c fonte.tab.c -ll -o analisador
+./analisador teste1.txt

@@ -1,0 +1,4 @@
+bison -d sintatico.y
+lex lexico.l
+gcc lex.yy.c sintatico.tab.c -ll -o analisador
+./analisador teste1.txt
