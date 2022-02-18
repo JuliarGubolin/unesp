@@ -1,0 +1,27 @@
+%Dados do animal e que dia da semana ele mente
+mente(leao,segunda).
+mente(leao,terça).
+mente(leao,quarta).
+mente(unicornio,quinta).
+mente(unicornio,sexta).
+mente(unicornio,sabado).
+
+%Que dia é o "ontem" do segundo elemento.
+ontem(segunda,terça).
+ontem(terca,quarta).
+ontem(quarta,quinta).
+ontem(quinta,sexta).
+ontem(sexta,sabado).
+ontem(sabado,domingo).
+ontem(domingo,segunda).
+
+% Neste primeiro descobrir, verifica se o animal mentiu ontem, mas não
+% mentiu hoje
+descobrir(A,D):-mente(A,D2),ontem(D2,D),not(mente(A,D)).
+% Neste segundo descobrir, verifica se o animal mentiu hoje, mas não
+% mentiu ontem
+descobrir(A,D):-mente(A,D),ontem(D2,D),not(mente(A,D2)).
+
+resposta(X):-descobrir(leao,X),descobrir(unicornio,X).
+%resposta(X).
+%x = quinta.

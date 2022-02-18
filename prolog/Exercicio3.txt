@@ -1,0 +1,26 @@
+%Fatos dos funcionários
+dado(1,steve,5000).
+dado(2,natasha,8320).
+dado(3,bruce,6000).
+dado(4,wanda,2320).
+
+%Fatos dos dependentes
+dep(1,sofia).
+dep(2,claudine).
+dep(2,katia).
+dep(2,fabiana).
+dep(3,gabriela).
+
+%Perguntas
+%a - sal(steve,S).
+%b - cod(natasha,S).
+%c - depwho(X,wanda).
+%d - depwho(katia,Y).
+%e - recebesalm5900(X,S).
+%f - depsal(X,Y).
+
+sal(X,S) :- dado(_,X,S).
+cod(X,C) :- dado(C,X,_).
+depwho(X,Y) :- dado(C,Y,_),dep(C,X).
+recebesalm5900(X) :- dado(_,X,S), S=<5900.
+depsal(X) :- dado(C,_,S),dep(C,X), S=<6000.
