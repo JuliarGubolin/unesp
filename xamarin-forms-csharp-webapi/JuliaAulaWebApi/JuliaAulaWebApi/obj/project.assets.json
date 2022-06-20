@@ -214,11 +214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\tcc-collegemath\\aula-web-api\\JuliaAulaWebApi\\JuliaAulaWebApi\\JuliaAulaWebApi.csproj",
+      "projectUniqueName": "D:\\workspace\\unesp\\xamarin-forms-csharp-webapi\\JuliaAulaWebApi\\JuliaAulaWebApi\\JuliaAulaWebApi.csproj",
       "projectName": "JuliaAulaWebApi",
-      "projectPath": "D:\\workspace\\tcc-collegemath\\aula-web-api\\JuliaAulaWebApi\\JuliaAulaWebApi\\JuliaAulaWebApi.csproj",
+      "projectPath": "D:\\workspace\\unesp\\xamarin-forms-csharp-webapi\\JuliaAulaWebApi\\JuliaAulaWebApi\\JuliaAulaWebApi.csproj",
       "packagesPath": "C:\\Users\\gisla\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\tcc-collegemath\\aula-web-api\\JuliaAulaWebApi\\JuliaAulaWebApi\\obj\\",
+      "outputPath": "D:\\workspace\\unesp\\xamarin-forms-csharp-webapi\\JuliaAulaWebApi\\JuliaAulaWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
