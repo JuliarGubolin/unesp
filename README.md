@@ -7,8 +7,7 @@ Programas, projetos e trabalhos feitos no curso de 'Bacharelado em Ciência da C
 - Java
 - Prolog
 - Lisp
-- C# (para projetos específicos)
+- C#, .NET Framework
 - Assembly
 - Flex/Lex
 - Bison
-- React-Native
