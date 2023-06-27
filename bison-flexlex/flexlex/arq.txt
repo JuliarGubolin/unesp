@@ -1,0 +1,14 @@
+if true end;
+# jooj;
+a=true+9;
+print(a);
+print( a );
+if true;
+a=b-3;
+void;
+integer a;
+real j = 2,5;
+j=2.5;
+a=9>5;
+4a
+nome@erro;

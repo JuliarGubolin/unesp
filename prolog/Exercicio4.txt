@@ -1,0 +1,11 @@
+%Resposta: Considerei que "Direita da casa Marfim" fosse a minha esquerda.
+
+   %                   1          2            3         4         5
+   %Cor             amarela      azul       vermelha   verde     marfim
+   %Nacionalidade   norueguês    ucraniano  inglês     japonês   espanhol
+   %Animal          raposa       cavalo     lesmas     zebra     cachorro
+   %Bebida          água         chá        leite      café      sucodelaranja
+   %Cigarro         Continental  Free       Malboro    Minister  Hollywood
+
+   %Quem bebe água? Resposta: Norueguês.
+   %Quem é o dono da zebra? Resposta: Japonês.

@@ -1,0 +1,21 @@
+%Regras
+casa(sala,3,4.5).
+casa(dormitorio1,2.5,3.5).
+casa(dormitorio2,1.8,4).
+casa(cozinha,2,2.5).
+casa(banheiro,1.8,4).
+
+%Perguntas
+%a - area(cozinha,Y).
+%b - maiorque(cozinha,Y).
+%c - menorque(dormitorio2,Y).
+%d - area(cozinha,A),area(banheiro,X), A= 2*X, Resposta: false.
+%e - maiorque(sala,M)? Resposta: falso, indica que nenhum é maior que
+%sala.
+
+%Área
+area(L,A) :- casa(L,X,Y), A is X*Y.
+%Comodos maiores que C
+maiorque(C,M) :- area(C,A), area(M,R), R>A.
+%Comodos menores que C
+menorque(C,M) :- area(C,A), area(M,R), R<A.

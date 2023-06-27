@@ -1,0 +1,16 @@
+%INICIO_PROGRAMA%
+    // Declaração das variáveis
+    double nota1;
+    double nota2=8.9
+    integer nota3;
+    double media=0;
+    nota1=10;
+    char estado;
+    
+    media = nota1+nota2+nota3/3
+    if(media > 5){
+	estado = "aprovado";
+    }else{
+	estado = "reprovado";
+    }
+%FIM_PROGRAMA%
